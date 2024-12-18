@@ -4,7 +4,6 @@ import { CalendarBooking } from "@/components/cal"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Rocket, Users, Zap, Twitter, Linkedin } from 'lucide-react'
 import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
       <section id="hero" className="pt-32 pb-16 px-4 relative overflow-hidden" style={{ minHeight: 'calc(100vh * 0.6)' }}>
         <div className="absolute inset-0 grid-background opacity-20"></div>
         <div className="container mx-auto text-center relative z-10 flex flex-col justify-center h-full">
-          <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-white">Need Tech That Matters? Let's Talk.</h1>
+          <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-white">Need Tech That Matters? Let&apos;s Talk.</h1>
           <p className="text-xl mb-8 text-muted-foreground leading-relaxed py-1">From AI breakthroughs to market-ready solutions, I build products that matter.</p>
           <div className="flex justify-center space-x-4">
             <Button size="lg" asChild className="bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400">
@@ -46,7 +45,7 @@ export default function Home() {
                   <div className="flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-r from-purple-700 to-purple-500 mb-4 border border-purple-300">
                     <item.icon className="w-8 h-8 text-white" />
                   </div>
-                  <CardTitle className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-white" pb-1>
+                  <CardTitle className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-white pb-1">
                     <span className="inline-block px-1">
                       {item.title}
                     </span>
@@ -117,7 +116,7 @@ export default function Home() {
         </div>
       </section>
 
-            {/* About Me Section */}
+      {/* About Me Section */}
       <section id="about-me" className="py-16 px-4 mt-16">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center text-purple-800">About Me</h2>
@@ -133,16 +132,16 @@ export default function Home() {
             </div>
             <div className="w-full md:w-2/3">
               <p className="text-lg mb-4">
-                Hello! I'm Samruddhi Mokal, a technical founder and product builder who thrives at the intersection of innovation and execution. My journey started with founding a successful startup in college that was later acquihired, leading to valuable experience in product management for US healthcare and government sectors.
+                Hello! I&apos;m Samruddhi Mokal, a technical founder and product builder who thrives at the intersection of innovation and execution. My journey started with founding a successful startup in college that was later acquihired, leading to valuable experience in product management for US healthcare and government sectors.
               </p>
               <p className="text-lg mb-4">
-                My expertise spans from developing cutting-edge AI solutions to scaling startups (0 to 10M audience base with 300+ influencers in 4 countries 90 days). I've worked with industry leaders, including experience at a YC-backed company's Founder's Office, and have built everything from prediction markets to AI voice models.
+                My expertise spans from developing cutting-edge AI solutions to scaling startups (0 to 10M audience base with 300+ influencers in 4 countries 90 days). I&apos;ve worked with industry leaders, including experience at a YC-backed company&apos;s Founder&apos;s Office, and have built everything from prediction markets to AI voice models.
               </p>
               <p className="text-lg mb-4">
-                What sets me apart is my ability to understand both technical complexity and business needs. Whether it's creating prompting systems for AI firms or scaling influencer platforms across countries, I bring a unique blend of technical expertise and business acumen to every project.
+                What sets me apart is my ability to understand both technical complexity and business needs. Whether it&apos;s creating prompting systems for AI firms or scaling influencer platforms across countries, I bring a unique blend of technical expertise and business acumen to every project.
               </p>
               <p className="text-lg mb-4">
-                Currently, I'm focused on helping businesses leverage AI and modern technology to build efficient solutions that solve real problems. Every project starts with understanding your vision and ends with a product ready for real-world impact. 
+                Currently, I&apos;m focused on helping businesses leverage AI and modern technology to build efficient solutions that solve real problems. Every project starts with understanding your vision and ends with a product ready for real-world impact. 
               </p>
               <div className="flex space-x-4">
                 <a href="https://x.com/samruddhi_mokal" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-100">
@@ -163,7 +162,7 @@ export default function Home() {
           <div className="glossy p-4 rounded-lg">
             <CalendarBooking calLink="samruddhi-mokal/30min" />
           </div>
-          <Button size="lg" asChild className="mt-8 bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400" px-8 py-6>
+          <Button size="lg" asChild className="mt-8 bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400 px-8 py-6">
             <a href="https://cal.com/samruddhi-mokal/30min" target="_blank" rel="noopener noreferrer">Book a Call</a>
           </Button>
         </div>
